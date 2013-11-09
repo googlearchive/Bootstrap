@@ -1,9 +1,10 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="bootstrap.html">
+
 <polymer-element name="bs-accordion-item" attributes="open" class="accordion-group">
   <template>
     <style>
-      @host {
-        :scope { display: block; }
-      }
+      :host { display: block; }
     </style>
     <div class="accordion-heading">
       <a id="collapse" class="accordion-toggle" on-tap="{{toggleAll}}">
