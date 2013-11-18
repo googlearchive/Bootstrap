@@ -1,0 +1,8 @@
+{
+  "name": "Bootstrap",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#master",
+    "polymer-selector": "Polymer/polymer-selector#master"
+  }
+}
